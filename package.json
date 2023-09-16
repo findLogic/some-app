@@ -1,0 +1,31 @@
+{
+    "name": "some-app",
+    "version": "0.0.2",
+    "main": "index.js",
+    "repository": "https://github.com/findLogic/some-app.git",
+    "author": "findLogic <fun-elco@list.ru>",
+    "license": "MIT",
+    "scripts": {
+        "start": "webpack serve --env port=3000",
+        "build:prod": "webpack --env mode=production",
+        "build:dev": "webpack --env mode=development"
+    },
+    "devDependencies": {
+        "@types/jest": "^29.5.4",
+        "@types/node": "^20.6.1",
+        "@types/react": "^18.2.21",
+        "@types/react-dom": "^18.2.7",
+        "@types/webpack": "^5.28.2",
+        "html-webpack-plugin": "^5.5.3",
+        "ts-loader": "^9.4.4",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2",
+        "webpack": "^5.88.2",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    },
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    }
+}
